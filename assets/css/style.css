@@ -1,29 +1,29 @@
+/* this formatting applies to the overall webpage */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* this determines the background color for the page */
 body {
     background-color: #d9dcd6;
 }
 
+/* this formats the headers size, font type, header background color and font colour */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 'sans-serif';
     background-color: #2a607c;
     color: #ffffff;
 }
-
+ /*this edits the font size and display style */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
-    color: #d9dcd6;
-}
-
+/* this edits the navigation sections size, margin positioning, display area, font and font size */
 header nav {
     padding-top: fit-content;
     margin-right: 20px;
@@ -32,25 +32,26 @@ header nav {
     font-size: 20px;
 }
 
+
+/* edits navigations list type and position */
 header nav ul {
     list-style-type: none;
     list-style-position: inside;
 }
 
+/* formats the display for the contents of the navigation list */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* formats the navigation lists text color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* this formats the banner at the top of the page */
 .hero {
     min-height: 800px;
     min-width: 100%;
@@ -60,43 +61,48 @@ p {
     background-position: center;
 }
 
+/* this formats the images in the 'content' section to show on the left side of the box */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* this formats the images in the 'content' section to show on the right side of the box */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* formats the content boxes max width, display style and margin */
 .content {
     max-width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* this makes sure the image height does not increase over the set height of 200px */
 .content img{
     max-height: 200px;
 }
 
+/* this edits the content section headers (font size and margin) */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px; 
 }
 
+/* edits the content sections box style and placement as well as assigning the fonts/colors used*/
 .search-engine-optimization,.online-reputation-management,.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     max-height: 600px;
     min-height: 300px;
     min-width: 300px;
-
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #0072bb;
     color: #ffffff;
 }
 
+/* formats the benefit box's max width, display style and margin */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,22 +114,26 @@ p {
     background-color: #2589bd;
 }
 
+/* this makes sure the image width does not increase over the set height of 150px */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* edits the benefit sections margin and placement as well as assigning the colors being used*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* edits the headers in the benefit sections (margin and text placement) */
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* formats the footer size and footers content */
 footer {
     padding: 30px;
     clear: both;
@@ -131,6 +141,7 @@ footer {
     text-align: center;
 }
 
+/* formats the headers size for the footer */
 footer h2 {
     font-size: 20px;
 }
