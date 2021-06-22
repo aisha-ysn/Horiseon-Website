@@ -1,5 +1,7 @@
-
 # Horiseon-Website
+
+Link to deployed website: https://aisha-ysn.github.io/Horiseon-Website/
+
 The aim of this homework was to increase accessibillity so that the webpage can better cater to users with disabilities. 
 
 This screenshot shows a full site screenshot of the edited site.
